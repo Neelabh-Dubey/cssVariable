@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 3</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 class="css">Changing CSS Variables with <span id="js">JS</span></h1>
+    <div class="container">
+        <div class="inpt" id="lengthing">
+            <label for="length">Dimension:</label>
+            <input id="length" type="range" max="500" min="50" value="300" data-size="px">
+        </div>
+        <div class="inpt" id="bordering">
+            <label for="border">Border:</label>
+            <input id="border" type="range" max="30" min="5" value="10" data-size="px">
+        </div>
+        <div class="inpt" id="baseclr">
+            <label for="color">Color:</label>
+            <input id="color" type="color" value="#ffc600">
+        </div>
+    </div>
+    <div class="demo"></div>
+    <script src="index.js"></script>
+</body>
+</html>

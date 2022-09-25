@@ -1,0 +1,45 @@
+:root{
+    --length: 50px;
+    --color: #ffc600;
+    --border: 10px;
+}
+
+body{
+    padding: 0px;
+    margin: 0px;
+    height: 100%;
+    background-color: aliceblue;
+}
+
+h1{
+    text-align: center;
+}
+
+#js{
+    font-size: 50px;
+    font-weight:bolder;
+    color: var(--color);
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around; 
+}
+
+.inpt{
+    text-align: center;
+    width: 400px;
+}
+
+.demo{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    background-color: aqua;
+    width: var(--length);
+    height: var(--length);
+    color: var(--color);
+    border: solid var(--color) var(--border);
+}
+
